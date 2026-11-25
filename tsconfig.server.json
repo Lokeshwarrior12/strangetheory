@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "rootDir": ".",
+    "outDir": "dist-server",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": [
+    "server.ts",
+    "api/**/*.ts",
+    "server/**/*.ts",
+    "src/lib/categories.ts",
+    "src/lib/config.ts",
+    "src/lib/passwords.ts",
+    "src/lib/sanitize.ts",
+    "src/lib/schemas.ts",
+    "src/lib/scoring.ts",
+    "src/lib/types.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "dist-server",
+    "**/*.test.ts"
+  ]
+}

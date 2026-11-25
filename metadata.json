@@ -1,0 +1,6 @@
+{
+  "name": "StrangeTheory",
+  "description": "A 3D-powered intellectual sanctuary for structured thought experiments, lateral riddles, and multi-lens discourse.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
